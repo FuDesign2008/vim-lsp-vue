@@ -1,13 +1,15 @@
-# vim-lsp-bash
+# vim-lsp-css
 
-Sets up [vim-lsp](https://github.com/prabirshrestha/vim-lsp) for Bash script.
+Sets up [vim-lsp](https://github.com/prabirshrestha/vim-lsp) for css/less/scss.
+
+See https://github.com/prabirshrestha/vim-lsp/wiki/Servers-Css for details.
 
 ## Installing
 
-Install bash language server using [npm](https://www.npmjs.com):
+Install `vscode-css-languageserver-bin` using [npm](https://www.npmjs.com):
 
 ```
-npm install -g bash-language-server
+npm install -g vscode-css-languageserver-bin
 ```
 
 Install the vim plugins:
@@ -17,7 +19,7 @@ Install the vim plugins:
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
 
-Plug 'lgranie/vim-lsp-bash'
+Plug 'FuDesign2008/vim-lsp-css'
 ```
 
 ## License
