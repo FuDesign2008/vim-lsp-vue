@@ -9,7 +9,7 @@ See https://github.com/vuejs/vetur/tree/master/server for details.
 Install `vue-language-server` using [npm](https://www.npmjs.com):
 
 ```
-npm install -g vue-language-server
+npm install -g vue-language-server@0.0.57
 ```
 
 Install the vim plugins:
