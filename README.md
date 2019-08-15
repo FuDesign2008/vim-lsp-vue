@@ -1,15 +1,15 @@
-# vim-lsp-css
+# vim-lsp-vue
 
-Sets up [vim-lsp](https://github.com/prabirshrestha/vim-lsp) for css/less/scss.
+Sets up [vim-lsp](https://github.com/prabirshrestha/vim-lsp) for vue.
 
-See https://github.com/prabirshrestha/vim-lsp/wiki/Servers-Css for details.
+See https://github.com/vuejs/vetur/tree/master/server for details.
 
 ## Installing
 
-Install `vscode-css-languageserver-bin` using [npm](https://www.npmjs.com):
+Install `vue-language-server` using [npm](https://www.npmjs.com):
 
 ```
-npm install -g vscode-css-languageserver-bin
+npm install -g vue-language-server
 ```
 
 Install the vim plugins:
@@ -19,7 +19,7 @@ Install the vim plugins:
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
 
-Plug 'FuDesign2008/vim-lsp-css'
+Plug 'FuDesign2008/vim-lsp-vue'
 ```
 
 ## License
